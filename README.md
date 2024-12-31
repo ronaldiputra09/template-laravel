@@ -5,6 +5,41 @@
 - Laravel 11
 - Bootstrap 5.3.3 - Template Taplox
 
-## How to use?
+## Run Locally
 
-- git clone
+Clone the project
+
+```bash
+  git clone https://github.com/ronaldiputra09/template-laravel.git
+```
+
+Go to the project directory
+
+```bash
+  cd laravel-template
+```
+
+Install dependencies
+
+```bash
+  composer update
+```
+
+Rename ENV
+
+```bash
+  .env.example -> .env
+```
+
+Generate key
+
+```bash
+  php artisan key:generate
+```
+
+Running Laravel
+
+```bash
+  php artisan serve
+```
+
